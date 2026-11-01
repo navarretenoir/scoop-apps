@@ -1,10 +1,10 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Tu Mundo Pet: tienda de acuarismo y productos premium de mascotas / aquarium and pet store",
     "homepage": "https://github.com/navarretenoir/tumundopet",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/navarretenoir/tumundopet/releases/download/v1.0.1/TuMundoPet-windows-portable.zip",
-    "hash": "d71c662f48706df34993e62251d4e0c98f533bebc501fff8c98032aa84d4fac4",
+    "url": "https://github.com/navarretenoir/tumundopet/releases/download/v1.0.2/TuMundoPet-1.0.2-windows-portable.zip",
+    "hash": "0f70f998aa7f89cb9c5d69d85a190d763142197c48e099410ef7c57f0ea909f2",
     "bin": "TuMundoPet.exe",
     "shortcuts": [
         [
@@ -16,6 +16,6 @@
         "github": "https://github.com/navarretenoir/tumundopet"
     },
     "autoupdate": {
-        "url": "https://github.com/navarretenoir/tumundopet/releases/download/v$version/TuMundoPet-windows-portable.zip"
+        "url": "https://github.com/navarretenoir/tumundopet/releases/download/v$version/TuMundoPet-$version-windows-portable.zip"
     }
 }

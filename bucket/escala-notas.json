@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "description": "Escala de Notas: notas escolares chilenas, 1,0 a 7,0 / Chilean grade scale calculator",
+    "homepage": "https://github.com/navarretenoir/escalanotas",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/navarretenoir/escalanotas/releases/download/v1.0/EscalaNotas-windows-portable.zip",
+    "hash": "45c5cc599d83c72f114ebed326e0fefc8f9f88ba332e617bccf793bdf27b163b",
+    "bin": "EscalaNotas.exe",
+    "shortcuts": [
+        [
+            "EscalaNotas.exe",
+            "Escala de Notas"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/navarretenoir/escalanotas"
+    },
+    "autoupdate": {
+        "url": "https://github.com/navarretenoir/escalanotas/releases/download/v$version/EscalaNotas-windows-portable.zip"
+    }
+}

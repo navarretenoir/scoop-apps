@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "description": "Clima: aplicación del clima de Chile / Weather for Chile",
+    "homepage": "https://github.com/navarretenoir/clima",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/navarretenoir/clima/releases/download/v1.2.1/Clima-windows-portable.zip",
+    "hash": "c3c048e5c72884d0731e3e732b1b27738f3d120f22fb9ee28c1b3febd25e3d30",
+    "bin": "Clima.exe",
+    "shortcuts": [
+        [
+            "Clima.exe",
+            "Clima"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/navarretenoir/clima"
+    },
+    "autoupdate": {
+        "url": "https://github.com/navarretenoir/clima/releases/download/v$version/Clima-windows-portable.zip"
+    }
+}

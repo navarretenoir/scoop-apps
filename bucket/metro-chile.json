@@ -1,0 +1,21 @@
+{
+    "version": "2.1.1",
+    "description": "Metro Chile: estado en vivo del Metro de Santiago (app no oficial) / Live Santiago Metro status (unofficial)",
+    "homepage": "https://github.com/navarretenoir/metrochile",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/navarretenoir/metrochile/releases/download/v2.1.1/MetroChile-windows-portable.zip",
+    "hash": "8548e0b17f3074a1bd02558c14ebe75e3a2aed406f1692c117993b227099944e",
+    "bin": "MetroChile.exe",
+    "shortcuts": [
+        [
+            "MetroChile.exe",
+            "Metro Chile"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/navarretenoir/metrochile"
+    },
+    "autoupdate": {
+        "url": "https://github.com/navarretenoir/metrochile/releases/download/v$version/MetroChile-windows-portable.zip"
+    }
+}

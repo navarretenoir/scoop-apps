@@ -15,4 +15,3 @@ scoop install apps/tumundopet     # Tu Mundo Pet — tienda de acuarismo y masco
 Metro Chile is an **unofficial** app, not affiliated with Metro S.A. / App no oficial, no afiliada a Metro S.A.
 
 Fuentes / Source: https://github.com/navarretenoir · Licencia / License: GPL-3.0-or-later.
-Desarrolladas con asistencia sustancial de IA generativa; ver `AI-USO.md` en cada repositorio. / Built with substantial generative-AI assistance; see `AI-USO.md` in each repository.
